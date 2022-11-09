@@ -1,0 +1,144 @@
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.container::after {
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+section {
+  display: block;
+  margin-bottom: 70px;
+}
+
+.navbar .titlet {
+}
+
+.navbar .titlet img {
+  float: left;
+  height: 70px;
+  width: auto;
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+}
+
+.content1 .feature {
+  background-color: salmon;
+}
+
+.content1 .feature::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.content1 .feature .col {
+  width: calc((100% / 3) - 20px);
+  padding: 10px;
+  float: left;
+}
+
+.content1 .feature .col::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.content1 .feature .col .feature-item {
+  padding: 10px;
+  height: 300px;
+  background-color: white;
+}
+
+.content1 .feature .col .feature-item::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.content1 .feature .col .feature-item .ctr {
+  padding: 10px;
+  height: 280px;
+  background-color: white;
+}
+
+.content1 .feature .col .feature-item .ctr::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.content1 .feature .col .feature-item .ctr .incol {
+  padding: 10px;
+  width: calc((100% / 3) - 70px);
+  height: 260px;
+  background-color: rgb(62, 32, 172);
+}
+
+.container div {
+}
+
+.satu {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  float: right;
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container1 {
+  width: 1260px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.content {
+  width: 80%;
+  height: 200px;
+  float: left;
+  background-color: rgb(161, 0, 0);
+}
+
+.sidebar {
+  width: 20%;
+  height: 200px;
+  float: left;
+  background-color: blue;
+}

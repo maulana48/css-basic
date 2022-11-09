@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  background-color: #dfdfdf;
+}
+
+button {
+  all: unset;
+  cursor: unset;
+  margin-right: unset;
+  cursor: pointer;
+}
+
+#headers {
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+  background-color: gray;
+  right: 7%;
+  top: 0;
+  left: 7%;
+}
+
+.wrapper {
+  background: url("./img/asd.png");
+  background-size: cover;
+  background-position: center;
+  margin: 90px auto auto auto;
+  width: 1160px;
+}
+
+.container {
+  width: 1160px;
+  margin: auto;
+}
+
+.header {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+}
+
+.header h1 {
+  width: 39%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.header ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul li {
+  list-style: none;
+}
+
+.button {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.content {
+  text-transform: uppercase;
+  font-size: 40px;
+  align-items: center;
+  padding: 10px;
+  width: 56%;
+}
+
+.content h1 {
+  width: 50%;
+  margin-left: 5%;
+  margin-bottom: -20px;
+}
+
+#ct1 {
+  background-color: rgb(255, 255, 255);
+  transform: rotate(-3deg);
+}
+
+#ct1 p {
+  padding: 5px;
+  transform: rotate(3deg);
+}
+
+#ct2 {
+  background-color: #ff8900;
+  transform: rotate(-5deg);
+}
+
+#ct2 p {
+  padding: 5px;
+  transform: rotate(5deg);
+}
+
+.content .biasa {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 25px;
+  text-transform: none;
+}
+
+.content button {
+  all: unset;
+  cursor: pointer;
+}
+
+.content #app {
+  width: 26%;
+}
+
+.content #play {
+  width: 40%;
+}
+
+.container .wong {
+  width: 47%;
+}
+
+.container .wong span {
+  filter: drop-shadow(18px -2px 0 #ff8900);
+}
+
+.container .wong span img {
+  width: 118%;
+  height: 100%;
+  filter: drop-shadow(18px -7px 0 white);
+}
+
+.content1 {
+  background-color: white;
+  padding: 90px;
+}
+
+.content1 h1 {
+  padding-left: 10px;
+  font-size: 35px;
+}
+
+.content1 .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content1 .cards .card {
+  width: calc(100 / 3);
+  padding: 0 10px;
+}
+
+.content1 .cards .card img {
+  width: 100%;
+  height: 75%;
+}
+
+.content1 .cards .card .cardT {
+  margin: 0 10px;
+}
+
+.content1 .cards .card .cardT p {
+  display: inline;
+}
+
+.content1 .cards .card .cardT i {
+  float: right;
+}
+
+.content2 {
+  background-color: #ff8900;
+  display: flex;
+}
+
+.content2 .wong1 {
+  width: 55%;
+}
+
+.content2 .wong1 span {
+  filter: drop-shadow(-15px 0px 0 white);
+}
+
+.content2 .wong1 span img {
+  margin: 0 0 -5px 10%;
+  filter: drop-shadow(-15px 0px 0 #ece8e7);
+}
+
+.content2 .contentT {
+  align-self: center;
+  width: 30%;
+}
+
+.content2 .contentT h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#ct3 {
+  background-color: white;
+  transform: rotate(-3deg);
+}
+
+#ct3 p {
+  padding: 5px;
+  transform: rotate(3deg);
+}
+
+.content2 .contentT h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.content2 .contentT p {
+  margin: 15px;
+}
+
+.content2 .contentT button {
+  color: white;
+  background-color: black;
+  margin: 15px;
+  padding: 15px;
+}
+
+.content3 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 500px;
+}
+
+.content3 .content3T {
+  width: 40%;
+  text-align: center;
+  margin: 5%;
+}
+
+.content3 .content3T h1 {
+  font-weight: bold;
+}
+
+.content3 .kotakc {
+  display: flex;
+  width: 52%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.content3 .kotak {
+  width: 160px;
+  height: 160px;
+}
+
+.content3 .kotakc .kotak img {
+  width: 150px;
+  height: 150px;
+  background-color: #ece8e7;
+  padding: 5px;
+}
+
+.content3a {
+  padding: 20px;
+  background-color: white;
+  padding: 20px 8%;
+  height: 470px;
+}
+
+.content3a h1 {
+  font-weight: 900;
+}
+
+.content3a .cards {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  width: 958px;
+}
+
+.content3a .cards .card {
+  width: 49%;
+  height: 55%;
+}
+
+.content3a .cards .card img {
+  width: 100%;
+  height: 55%;
+}
+
+.content3a .cards .card .card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.content3b {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 8%;
+  justify-content: space-between;
+}
+
+.content3b .content3bT {
+  width: 30%;
+}
+
+.content3b .content3bT h1 {
+  font-weight: 900;
+}
+
+.content3b .content3bT .tombol {
+  display: flex;
+}
+
+.content3b .content3bT .tombol button {
+  padding: 0;
+  width: 35%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.content3b .content3bT .tombol button img {
+  width: 100%;
+  height: 100%;
+}
+
+.content3b .content3bT p {
+  font-weight: lighter;
+  color: grey;
+}
+
+.container .content4 {
+  background-color: #ff8900;
+  text-align: center;
+  padding: 8% 31%;
+  color: white;
+}
+
+.container .content4 .email {
+  background-color: white;
+  color: grey;
+  display: inline;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.container .content4 .email input {
+  border: 0;
+  padding: 15px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.footer .f1 {
+  width: 15%;
+}
+
+.footer .items a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer i {
+  background-color: #ff8900;
+  color: #000;
+  padding: 10px;
+  border-radius: 11px;
+}
